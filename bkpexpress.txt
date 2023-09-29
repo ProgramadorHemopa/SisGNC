@@ -1,0 +1,4 @@
+Iif(	CDate(Fields!ANALISE_CRITICA.Value)<>"01/01/0001 00:00:00", 
+						FormatDateTime(Fields!ANALISE_CRITICA.Value), 
+						"-"
+				),

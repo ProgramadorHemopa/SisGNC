@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsTriagem" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsTriagem" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="ReportsTriagem" msprop:Generator_UserDSName="ReportsTriagem">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Triagem" msprop:Generator_TableClassName="TriagemDataTable" msprop:Generator_RowEvArgName="TriagemRowChangeEvent" msprop:Generator_TableVarName="tableTriagem" msprop:Generator_TablePropName="Triagem" msprop:Generator_RowDeletingName="TriagemRowDeleting" msprop:Generator_UserTableName="Triagem" msprop:Generator_RowChangingName="TriagemRowChanging" msprop:Generator_RowDeletedName="TriagemRowDeleted" msprop:Generator_RowChangedName="TriagemRowChanged" msprop:Generator_RowEvHandlerName="TriagemRowChangeEventHandler" msprop:Generator_RowClassName="TriagemRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TRG_ID" msprop:Generator_ColumnVarNameInTable="columnTRG_ID" msprop:Generator_ColumnPropNameInRow="TRG_ID" msprop:Generator_ColumnPropNameInTable="TRG_IDColumn" msprop:Generator_UserColumnName="TRG_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TRG_NOMEPESSOA" msprop:Generator_ColumnVarNameInTable="columnTRG_NOMEPESSOA" msprop:Generator_ColumnPropNameInRow="TRG_NOMEPESSOA" msprop:Generator_ColumnPropNameInTable="TRG_NOMEPESSOAColumn" msprop:Generator_UserColumnName="TRG_NOMEPESSOA" type="xs:string" minOccurs="0" />
+              <xs:element name="TRG_NOMEMAE" msprop:Generator_ColumnVarNameInTable="columnTRG_NOMEMAE" msprop:Generator_ColumnPropNameInRow="TRG_NOMEMAE" msprop:Generator_ColumnPropNameInTable="TRG_NOMEMAEColumn" msprop:Generator_UserColumnName="TRG_NOMEMAE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TRG_OBSERVACAO" msprop:Generator_ColumnVarNameInTable="columnTRG_OBSERVACAO" msprop:Generator_ColumnPropNameInRow="TRG_OBSERVACAO" msprop:Generator_ColumnPropNameInTable="TRG_OBSERVACAOColumn" msprop:Generator_UserColumnName="TRG_OBSERVACAO" type="xs:string" minOccurs="0" />
+              <xs:element name="ASTTRG_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnASTTRG_DESCRICAO" msprop:Generator_ColumnPropNameInRow="ASTTRG_DESCRICAO" msprop:Generator_ColumnPropNameInTable="ASTTRG_DESCRICAOColumn" msprop:Generator_UserColumnName="ASTTRG_DESCRICAO" type="xs:date" minOccurs="0" />
+              <xs:element name="PRIORIDADE" msprop:Generator_ColumnVarNameInTable="columnPRIORIDADE" msprop:Generator_ColumnPropNameInRow="PRIORIDADE" msprop:Generator_ColumnPropNameInTable="PRIORIDADEColumn" msprop:Generator_UserColumnName="PRIORIDADE" type="xs:date" minOccurs="0" />
+              <xs:element name="NUC_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnNUC_DESCRICAO" msprop:Generator_ColumnPropNameInRow="NUC_DESCRICAO" msprop:Generator_ColumnPropNameInTable="NUC_DESCRICAOColumn" msprop:Generator_UserColumnName="NUC_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="TRG_TIPOCADASTRAMENTO" msprop:Generator_ColumnVarNameInTable="columnTRG_TIPOCADASTRAMENTO" msprop:Generator_ColumnPropNameInRow="TRG_TIPOCADASTRAMENTO" msprop:Generator_ColumnPropNameInTable="TRG_TIPOCADASTRAMENTOColumn" msprop:Generator_UserColumnName="TRG_TIPOCADASTRAMENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="ARATUA_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnARATUA_DESCRICAO" msprop:Generator_ColumnPropNameInRow="ARATUA_DESCRICAO" msprop:Generator_ColumnPropNameInTable="ARATUA_DESCRICAOColumn" msprop:Generator_UserColumnName="ARATUA_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="TRG_CPF" msprop:Generator_ColumnVarNameInTable="columnTRG_CPF" msprop:Generator_ColumnPropNameInRow="TRG_CPF" msprop:Generator_ColumnPropNameInTable="TRG_CPFColumn" msprop:Generator_UserColumnName="TRG_CPF" type="xs:string" minOccurs="0" />
+              <xs:element name="TRG_DATA" msprop:Generator_ColumnVarNameInTable="columnTRG_DATA" msprop:Generator_ColumnPropNameInRow="TRG_DATA" msprop:Generator_ColumnPropNameInTable="TRG_DATAColumn" msprop:Generator_UserColumnName="TRG_DATA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

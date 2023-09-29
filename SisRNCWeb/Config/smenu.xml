@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<secure>
+  <templates>
+    <item>
+      <!--    
+			<img src="Images/bt_f.jpg" />
+			-->
+    </item>
+    <group>
+      <!--    
+			<img src="Images/bt_c.jpg" />
+			-->
+    </group>
+    <option name="grouphover" value="" />
+    <option name="itemhover" value="" />
+    <option name="itemtarget" value="FRAME" />
+  </templates>
+  <menu>
+
+    <group objectid="2" jsid="cadastro" title="CADASTRO" collapse="false">
+      <subgoup objectid="3" title="CADASTRO-BÁSICO">
+        <item cssclass="submenuins" objectid="4" title="Assunto" url="Aut/Basic/Assunto.aspx" />
+        <item cssclass="submenuins" objectid="5" title="Documento Assunto" url="Aut/Basic/TipoDocumentoAssunto.aspx" />
+        <item cssclass="submenuins" objectid="6" title="Núcleo" url="Aut/Basic/Nucleo.aspx" />
+        <item cssclass="submenuins" objectid="9" title="Tipo Interessado" url="Aut/Basic/TipoInteressado.aspx" />
+        
+      </subgoup>
+      
+    </group>
+
+    <group objectid="15" jsid="atendimento" title="ATENDIMENTO" collapse="true">
+      <subgoup objectid="16" title="ATENDIMENTO ASSISTIDO">
+        <item cssclass="submenuins" objectid="17" title="Pessoa" url="Aut/Basic/Assunto.aspx" />
+        <item cssclass="submenuins" objectid="18" title="Atendimento" url="Aut/Basic/TipoDocumentoAssunto.aspx" />
+        <item cssclass="submenuins" objectid="19" title="Retorno" url="Aut/Basic/Nucleo.aspx" />
+
+      </subgoup>
+
+    </group>    
+
+    <group objectid="400" jsid="uca"   title="UCA" collapse="false">
+
+      <subgroup objectid="26"  title="Usuários">
+        <item cssclass="submenuins" objectid="432"  title="Inserir" url="pages/uca/wfm_Users_Ins.aspx?NEW=1"/>
+        <item cssclass="submenufin" objectid="433"  title="Lista" url="pages/uca/wfm_Users_Lst.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="31"  title="Providers">
+        <item cssclass="submenuins" objectid="434"  title="Inserir" url="pages/uca/wfm_Provider_Upd.aspx?NEW=1"/>
+        <item cssclass="submenufin" objectid="435"  title="Lista" url="pages/uca/wfm_Provider_Lst.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="22"  title="Cartões">
+        <item cssclass="submenufin" objectid="23"   title="Pesquisar" url="pages/uca/wfm_Card_Lst.aspx"/>
+        <item cssclass="submenuins" objectid="24" permissions ="insert"  title="Inserir Lista Negra" url="pages/uca/wfm_Card_HotList.aspx?HOTLIST=1"/>
+        <item cssclass="submenuupd" objectid="521" permissions ="update"  title="Gerenciar Lista Negra" url="pages/uca/wfm_Cards_HotList_Batch.aspx"/>
+        <item cssclass="submenufin" objectid="534" title="Alterar Motivo de Lista Negra" url="pages/uca/wfm_Cards_HotList_AlterReason.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="431"  title="Outros">
+        <item cssclass="submenupro" objectid="84"  title="Deficiências" url="pages/uca/wfm_Handicapped_cid_lst.aspx" />
+        <item cssclass="submenupro" objectid="490"  title="Aprovação Cadastral" url="pages/uca/wfm_Data_Compliance.aspx" />
+        <item cssclass="submenupro" objectid="490"  title="Histórico do Cartão" url="pages/uca/wfm_CardHistory.aspx" /> 
+        <item cssclass="submenufin" objectid="560"  title="Visualização do Cartão" url="pages/uca/wfm_ReadCard.aspx" />
+      </subgroup>
+
+      <subgroup objectid="517"  title="Controle de Cadastros">
+        <item cssclass="submenufin" objectid="517"  title="Listar" url="pages/security/wfm_UserCad_Lst.aspx"/>
+      </subgroup>
+
+    </group>
+
+    <group objectid="100" jsid="clearing"  title="Clearing" collapse="false">
+
+      <subgroup objectid="402"  title="Consórcios">
+        <item cssclass="submenuupd" objectid="88"  title="Editar" url="pages/sys/wfm_NewSysList.aspx?TYPE=Consortium"/>
+        <item cssclass="submenuins" objectid="430"  title="X Empresas" url="pages/clearing/wfm_tpxconsortium.aspx"/>
+      </subgroup>
+      <subgroup objectid="401"  title="Rateio">
+        <item cssclass="submenuupd" objectid="101"  title="Integração" url="Pages/clearing/wfm_IntegrationClearing.aspx"/>
+        <item cssclass="submenupro" objectid="102"  title="Simulação" url="Pages/clearing/wfm_SplittingSimulation.aspx"/>
+      </subgroup>
+
+    </group>
+
+    <group objectid="441" jsid="cliente"  title="Módulo Cliente" collapse="true">
+
+      <subgroup objectid="442"  title="Usuários">
+        <item cssclass="submenuins" objectid="443" permissions="insert;update"   title="Inserir" url="pages/uca/wfm_Users_Ins.aspx?NEW=1"/>
+        <item cssclass="submenufin" objectid="444"  title="Manutenção" url="pages/uca/wfm_Users_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="445"  title="Providers">
+        <item cssclass="submenuins" objectid="446" permissions ="insert"  title="Inserir" url="pages/uca/wfm_Provider_Upd.aspx?NEW=1"/>
+        <item cssclass="submenufin" objectid="447"  title="Manutenção" url="pages/uca/wfm_Provider_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="448"  title="Configuração">
+        <item cssclass="submenucon" objectid="4"  title="Mensagens" url="pages/client/wfm_Messages_Lst.aspx"/>
+        <item cssclass="submenucon" objectid="536"  title="Site Cliente" url="pages/client/wfm_ConfigureParameters.aspx"/>
+        <item cssclass="submenucon" objectid="32"  title="Usuários Logados" url="pages/client/wfm_Stats.aspx"/>
+
+      </subgroup>
+
+      <subgroup objectid="449"  title="WebNews">
+        <item cssclass="submenufin" objectid="12"  title="Lista" url="pages/client/wfm_WebNews_Lst.aspx"/>
+        <item cssclass="submenuins" objectid="450" permissions="insert"   title="Incluir" url="pages/client/wfm_WebNews_Ins.aspx?N=1"/>
+      </subgroup>
+
+      <subgroup objectid="451"  title="Pedidos">
+        <item cssclass="submenupro" objectid="30"  title="Liberar" url="pages/client/wfm_Orders_Pay_Lst.aspx"/>
+        <item cssclass="submenupro" objectid="454"  title="Detalhes" url="pages/client/wfm_Order_Find.aspx"/>
+        <item cssclass="submenupro" objectid="455"  title="Inconsistentes" url="pages/client/wfm_Orders_Incosistent_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="453" title="Funções">
+        <item cssclass="submenupro" objectid="301" title="Cartão/Atualiza" url="pages/client/wfm_AdjustRechargeInfo.aspx" />
+        <item cssclass="submenupro" objectid="302" title="Funcionários/Exclui" url="pages/client/wfm_AdjustRechargeInfo.aspx" />
+      </subgroup>
+      <subgroup objectid="452" title="Atualização Item Pedido">
+        <item cssclass="submenupro" objectid="452" title="Atualização/Item Pedidos" url="pages/client/wfm_AlterOrderItem_Search.aspx" />
+      </subgroup>
+
+    </group>
+
+    <group objectid="497" jsid="bureau" title ="Bureau" collapse="true">     
+      <subgroup objectid="498" title="Impressão">
+        <item cssclass="submenupro" objectid="499" title="Impressão de cartões via RPC" url="pages/bureau/wfm_Default.aspx"/>
+        <item cssclass="submenupro" objectid="500" title="Status da Impressão dos Lotes" url="pages/bureau/wfm_BatchStatus.aspx"/>
+        <item cssclass="submenupro" objectid="519" title="Listar Lotes" url="pages/bureau/wfm_BatchList.aspx"/>
+      </subgroup>      
+    </group>
+
+    <group objectid="5" jsid="financeiro"  title="Financeiro" collapse="true">
+
+      <subgroup objectid="232"  title="POS/Caixas">
+        <item cssclass="submenudel" objectid="233"  title="Fechar" url="pages/pos/wfm_POSOpenSessions.aspx"/>
+        <item cssclass="submenudel" objectid="233"  title="Fechar / Empresa" url="pages/pos/wfm_POSOpenSessionsTP.aspx"/>
+      </subgroup>
+      <subgroup objectid="439"  title="Depósitos">
+        <item cssclass="submenupro" objectid="440"  title="Conciliação" url="pages/finance/wfm_depositforw.aspx"/>
+        <item cssclass="submenupro" objectid="222"  title="Retorno" url="pages/finance/wfm_Finance_Deposit_Lst.aspx"/>
+        <item cssclass="submenuflu" objectid="221"  title="Importar" url="pages/finance/wfm_DepositFileUpload.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="436"  title="Boletos">
+        <item cssclass="submenufin" objectid="21"  title="Lista" url="pages/finance/wfm_Billet_Lst.aspx"/>
+        <item cssclass="submenupro" objectid="16"  title="Retorno" url="pages/finance/wfm_Finance_Lst.aspx"/>
+        <item cssclass="submenuflu" objectid="15"  title="Importar" url="pages/finance/wfm_Finance_Archive_Ins.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="437"  title="Movimentações">
+        <item cssclass="submenumon" objectid="17"  title="Crédito" url="pages/finance/wfm_Finance_Credit.aspx?TYPE=1&amp;NEW=1"/>
+        <item cssclass="submenumon" objectid="18"  title="Débito" url="pages/finance/wfm_Finance_Debit.aspx?TYPE=1&amp;NEW=1"/>
+        <item cssclass="submenumon" objectid="487"  title="Crédito POS" url="pages/finance/wfm_Finance_POS_Credit.aspx?TYPE=1&amp;NEW=1"/>
+      </subgroup>
+
+      <subgroup objectid="438"  title="Pedidos">
+        <item cssclass="submenumon" objectid="19"  title="Crédito" url="pages/finance/wfm_Finance_Order_Credit.aspx?TYPE=1&amp;NEW=1"/>
+        <item cssclass="submenumon" objectid="20"  title="Débito" url="pages/finance/wfm_Finance_Order_Debit.aspx?TYPE=1&amp;NEW=1"/>
+      </subgroup>
+      
+      <subgroup objectid="90"  title="Créditos">
+        <item cssclass="submenuins" objectid="91"  title="Liberar" url="pages/finance/wfm_ReleasedCredit_Ins.aspx" />
+        <item cssclass="submenufin" objectid="92"  title="Listar" url="pages/finance/wfm_ReleasedCredit_Lst.aspx" />
+      </subgroup>
+
+      <subgroup objectid="543"  title="Balanceamento">
+        <item cssclass="submenuins" objectid="543"  title="Auditoria - Balanceamento" url="pages/finance/wfm_SystemOwner_Audit.aspx" />        
+      </subgroup>
+      
+    </group>
+
+    <group objectid="424" jsid="seguranca"  title="Segurança" collapse="false">
+
+      <subgroup objectid="425"  title="Grupos">
+        <item cssclass="submenuins" objectid="427"  title="Incluir" url="pages/security/wfm_SecurityUserGroups_Ins.aspx"/>
+        <item cssclass="submenufin" objectid="428"  title="Listar" url="pages/security/wfm_SecurityUserGroups_Lst.aspx"/>
+        <item cssclass="submenupro" objectid="501" title="Aplicar permissões para usuários" url="pages/security/wfm_ApplyGroupPermissionsToUsers.aspx"/>
+      </subgroup>
+      <subgroup objectid="426"  title="Usuários">
+        <item cssclass="submenufin" objectid="429"  title="Listar" url="pages/security/wfm_SystemUser_Lst.aspx"/>
+      </subgroup>
+      
+      
+    </group>
+
+    <group objectid="81" jsid="sys"  title="Sys" collapse="true">
+
+      <subgroup objectid="81"  title="Tabelas Básicas">
+        <item cssclass="submenugen" objectid="81"  title="Emissor" url="pages/sys/wfm_NewSysList.aspx?TYPE=Issuer"/>
+        <item cssclass="submenugen" objectid="81"  title="Razões" url="pages/sys/wfm_NewSysList.aspx?TYPE=Reason"/>
+        <item cssclass="submenugen" objectid="81"  title="Estados" url="pages/sys/wfm_NewSysList.aspx?TYPE=State"/>
+        <item cssclass="submenugen" objectid="81"  title="Regiões" url="pages/sys/wfm_NewSysList.aspx?TYPE=Region"/>
+        <item cssclass="submenugen" objectid="81"  title="Sub-Regiões" url="pages/sys/wfm_NewSysList.aspx?TYPE=SubRegion"/>
+        <item cssclass="submenugen" objectid="81"  title="Cidades" url="pages/sys/wfm_NewSysList.aspx?TYPE=Cities"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Razões" url="pages/sys/wfm_NewSysList.aspx?TYPE=ReasonTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Usuários" url="pages/sys/wfm_UserTypes.aspx"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Aprovação" url="pages/sys/wfm_NewSysList.aspx?TYPE=ApprovationTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Documento" url="pages/sys/wfm_NewSysList.aspx?TYPE=DocumentTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Lista de Exceção de Documentos" url="pages/sys/wfm_NewSysList.aspx?TYPE=ProviderDocumentsExceptions"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Email" url="pages/sys/wfm_NewSysList.aspx?TYPE=EmailType"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Telefones" url="pages/sys/wfm_NewSysList.aspx?TYPE=TelephoneTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Endereços" url="pages/sys/wfm_NewSysList.aspx?TYPE=AddressTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Cotas de Carregamento" url="pages/sys/wfm_NewSysList.aspx?TYPE=ReloadQuotas"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Estudantes" url="pages/sys/wfm_NewSysList.aspx?TYPE=StudentTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos de Cursos" url="pages/sys/wfm_NewSysList.aspx?TYPE=Courses"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Feriados" url="pages/sys/wfm_NewSysList.aspx?TYPE=HolidayTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Feriados" url="pages/sys/wfm_NewSysList.aspx?TYPE=Holidays"/>
+        <item cssclass="submenugen" objectid="86"  title="Area de Transportes" url="pages/sys/wfm_NewSysList.aspx?TYPE=TransportArea"/>
+        <item cssclass="submenugen" objectid="87"  title="Tipos de Transportes" url="pages/sys/wfm_NewSysList.aspx?TYPE=TransportTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Mudanças de Status de Provider" url="pages/sys/wfm_NewSysList.aspx?TYPE=ProvidersReasons"/>
+        <item cssclass="submenugen" objectid="81"  title="Empresa - Balanceamento" url="pages/sys/wfm_NewSysList.aspx?TYPE=Systemowner"/>
+        <item cssclass="submenugen" objectid="81"  title="Conta - Balanceamento" url="pages/sys/wfm_NewSysList.aspx?TYPE=Systemowneraccount"/>
+        <item cssclass="submenugen" objectid="81"  title="Local de Agendamento" url="pages/sys/wfm_LocalAgenda_Lst.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Validador">
+        <item cssclass="submenugen" objectid="81"  title="Mensagens" url="pages/sys/wfm_NewSysList.aspx?TYPE=ValidatorMessages"/>
+        <item cssclass="submenugen" objectid="81"  title="Displays" url="pages/sys/wfm_NewSysList.aspx?TYPE=ValidatorDisplaysmt"/>
+        <item cssclass="submenugen" objectid="81"  title="Funções" url="pages/sys/wfm_NewSysList.aspx?TYPE=ValidatorFunctions"/>
+        <item cssclass="submenugen" objectid="81"  title="Integração" url="pages/sys/wfm_Integration_lst.aspx"/>
+        <item cssclass="submenugen" objectid="81"  title="Int. Gru. Tempo" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineIntegTimeGroups"/>
+        <item cssclass="submenugen" objectid="81"  title="Int. Períodos" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineIntegPeriods"/>
+        <item cssclass="submenugen" objectid="81"  title="Int. Lim. Tempo" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineIntegTimeLimits"/>
+        <item cssclass="submenugen" objectid="81"  title="Funç. Operador" url="pages/sys/wfm_PersonnelTypesxValidatorFcts_Lst.aspx"/>
+        <item cssclass="submenugen" objectid="81"  title="Cargos Operador" url="pages/sys/wfm_NewSysList.aspx?TYPE=PersonnelFunctions"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Funções" url="pages/sys/wfm_NewSysList.aspx?TYPE=PersonnelTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Periodos Recarga" url="pages/sys/wfm_NewSysList.aspx?TYPE=ReloadPeriodMT"/>
+        <item cssclass="submenugen" objectid="81"  title="Limites Tempo" url="pages/sys/wfm_NewSysList.aspx?TYPE=TimeLimits"/>
+        <item cssclass="submenugen" objectid="81"  title="Grupos Tempo" url="pages/sys/wfm_NewSysList.aspx?TYPE=TimeGroups"/>
+        <item cssclass="submenugen" objectid="81"  title="Mot. de HotList" url="pages/sys/wfm_NewSysList.aspx?TYPE=HotlistReason"/>
+        <item cssclass="submenugen" objectid="535"  title="Grupos de Linhas Validador" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineSelectGroups"/>
+        <item cssclass="submenugen" objectid="81"  title="Linhas" url="pages/sys/wfm_NewSysList.aspx?TYPE=Linemt"/>
+        <item cssclass="submenugen" objectid="81"  title="Linhas Detalhes" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineDetails"/>
+        <item cssclass="submenugen" objectid="81"  title="Grupo Linhas" url="pages/sys/wfm_NewSysList.aspx?TYPE=LineGroups"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Descontos" url="pages/sys/wfm_NewSysList.aspx?TYPE=DiscountTypes"/>
+        <item cssclass="submenugen" objectid="219"  title="Conf. Led" url="pages/sys/wfm_NewSysList.aspx?TYPE=ValidatorLedSettings"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Itiner." url="pages/sys/wfm_NewSysList.aspx?TYPE=ItineraryType"/>
+        <item cssclass="submenugen" objectid="81"  title="Período Tempo" url="pages/sys/wfm_NewSysList.aspx?TYPE=TimeTablePeriodTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Validadores" url="pages/sys/wfm_NewSysList.aspx?TYPE=Devices"/>
+        <item cssclass="submenugen" objectid="81" title="Tipos de Restrição" url="pages/sys/wfm_ProviderUseRestrictionsType_Lst.aspx"/>
+        <item cssclass="submenugen" objectid="550"  title="Cadastro de Viagens Previstas" url="pages/sys/wfm_previewtravel.aspx"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Cartão">
+        <item cssclass="submenugen" objectid="81"  title="Desenhos" url="pages/sys/wfm_NewSysList.aspx?TYPE=CardDesign"/>
+        <item cssclass="submenugen" objectid="81"  title="Templates" url="pages/sys/wfm_NewSysList.aspx?TYPE=CardTemplate"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos" url="pages/sys/wfm_NewSysList.aspx?TYPE=CardType"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Períodos" url="pages/sys/wfm_NewSysList.aspx?TYPE=PeriodUseTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Preços" url="pages/sys/wfm_NewSysList.aspx?TYPE=CardLevelPrices"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Aplicação">
+        <item cssclass="submenugen" objectid="81"  title="Aplicação Master" url="pages/sys/wfm_NewSysList.aspx?TYPE=MasterApplications"/>
+        <item cssclass="submenugen" objectid="81"  title="Aplicações" url="pages/sys/wfm_NewSysList.aspx?TYPE=Application"/>
+        <item cssclass="submenugen" objectid="81"  title="Gru. Estatísticos" url="pages/sys/wfm_NewSysList.aspx?TYPE=StatisticalGroups"/>
+        <item cssclass="submenugen" objectid="81"  title="Con. Estatístico" url="pages/sys/wfm_NewSysList.aspx?TYPE=StatisticalFamilies"/>
+        <item cssclass="submenugen" objectid="81"  title="Funções" url="pages/sys/wfm_NewSysList.aspx?TYPE=ApplicationFunctions"/>
+        <item cssclass="submenugen" objectid="81"  title="Template de Scheduler Master" url="pages/sys/wfm_NewSysList.aspx?TYPE=Schedulerestrtemplatemt"/>        
+        <item cssclass="submenugen" objectid="81"  title="Template de Scheduler" url="pages/uca/wfm_CardScheduler_Template.aspx"/>
+
+      </subgroup>
+
+      <subgroup objectid="81"  title="Modais">
+        <item cssclass="submenugen" objectid="81"  title="Empresas" url="pages/sys/wfm_NewSysList.aspx?TYPE=TransportProviders"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos de Empresas" url="pages/sys/wfm_NewSysList.aspx?TYPE=TransportProviderType"/>
+        <item cssclass="submenugen" objectid="81"  title="Locais Comum" url="pages/sys/wfm_NewSysList.aspx?TYPE=TranspProviderStore"/>
+        <item cssclass="submenugen" objectid="81"  title="Garagens" url="pages/sys/wfm_NewSysList.aspx?TYPE=Depots"/>
+        <item cssclass="submenugen" objectid="81"  title="Recebedorias" url="pages/sys/wfm_NewSysList.aspx?TYPE=Collectors"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Escala">
+        <item cssclass="submenugen" objectid="81"  title="Condições Itiner." url="pages/sys/wfm_NewSysList.aspx?TYPE=GroupConditions"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Eod">
+        <item cssclass="submenugen" objectid="81"  title="Locais de Exp." url="pages/sys/wfm_NewSysList.aspx?TYPE=ExportLocations"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Financeiro">
+        <item cssclass="submenugen" objectid="81"  title="Bancos" url="pages/sys/wfm_NewSysList.aspx?TYPE=Bank"/>
+        <item cssclass="submenugen" objectid="81"   title="Nosso Número" url="pages/sys/wfm_NewSysList.aspx?TYPE=NossoNumero"/>
+
+      </subgroup>
+
+      <subgroup objectid="81"  title="Deficientes">
+        <item cssclass="submenugen" objectid="81"  title="Tipos" url="pages/sys/wfm_NewSysList.aspx?TYPE=HandicapTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Equipamentos" url="pages/sys/wfm_NewSysList.aspx?TYPE=HandicappedEquipment"/>
+      </subgroup>
+
+      <subgroup objectid="81"  title="Segurança">
+        <item cssclass="submenugen" objectid="81"  title="Softwares" url="pages/sys/wfm_NewSysList.aspx?TYPE=Softwares&amp;DESC=Softwares"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipos Softwares" url="pages/sys/wfm_NewSysList.aspx?TYPE=SoftwareTypes"/>
+        <item cssclass="submenugen" objectid="81"  title="Tipo Dados" url="pages/sys/wfm_NewSysList.aspx?TYPE=DataTypes"/>
+      </subgroup>
+
+      <subgroup objectid="96"  title="GPS">
+        <item cssclass="submenugen" objectid="96"  title="Barreiras" url="pages/sys/wfm_GpsBarriers.aspx"/>
+        <item cssclass="submenugen" objectid="96"  title="Pontos Controle" url="pages/sys/wfm_NewSysList.aspx?TYPE=ControlPoint"/>
+        <item cssclass="submenugen" objectid="96"  title="Veículos" url="pages/sys/wfm_NewSysList.aspx?TYPE=Vehicles"/>
+      </subgroup>
+
+    </group>
+
+    <group objectid="418" jsid="servicos"  title="Serviços" collapse="false">
+
+      <subgroup objectid="417"  title="Geral">
+        <item cssclass="submenupro" objectid="9"  title="CardXUsers" url="pages/services/wfm_Users_Service_Ins.aspx"/>
+        <item cssclass="submenupro" objectid="419"  title="VT / Usuário" url="pages/services/wfm_Cards_To_Providers.aspx"/>
+        <item cssclass="submenupro" objectid="10"  title="Execução" url="pages/services/wfm_Services.aspx"/>
+        <item cssclass="submenupro" objectid="420"  title="Proc. CardxUser" url="pages/services/wfm_ProcessRechargeInfoToUsers.aspx"/>
+        <item cssclass="submenupro" objectid="421"  title="Proc. Banco" url="pages/services/wfm_ProcessReturnFileBank.aspx"/>
+        <item cssclass="submenupro" objectid="422"  title="Proc. Pedidos " url="pages/services/wfm_ProcessReleaseOrder.aspx"/>
+        <item cssclass="submenupro" objectid="423"  title="Execução Assíncrona " url="pages/services/wfm_RunningServices.aspx"/>
+      </subgroup>
+
+    </group>
+
+    <group objectid="2" jsid="configuracao"  title="Configuração" collapse="false">
+
+      <subgroup objectid="416"  title="Geral">
+        <item cssclass="submenucon" objectid="8"  title="Acesso" url="pages/parameters/wfm_roles_lst.aspx"/>
+        <item cssclass="submenucon" objectid="4"  title="Mensagens" url="pages/parameters/wfm_AdmMessages_Lst.aspx"/>
+        <item cssclass="submenucon" objectid="7"  title="Parametros" url="pages/sys/wfm_parameters.aspx"/>
+        <item cssclass="submenucon" objectid="11"  title="Manutenção CEP" url="pages/parameters/wfm_Address_Not_Found_Ins.aspx"/>
+        <item cssclass="submenucon" objectid="493"  title="Usuários no Admin" url="pages/general/wfm_currentusers.aspx"/>
+        <item cssclass="submenucon" objectid="495" title="Exceptions" url="pages/general/wfm_exceptions.aspx"/>
+        <item cssclass="submenucon" objectid="537" title="Tradução" url="pages/general/wfm_Globalization.aspx"/>
+        <item cssclass="submenucon" objectid="546" title="Logos" url="pages/general/wfm_Logos.aspx"/>
+        
+      </subgroup>
+
+    </group>
+
+    <group objectid="413" jsid="credenciado"  title="Credenciado" collapse="false">
+
+      <subgroup objectid="414"  title="Geral">
+        <item cssclass="submenuins" objectid="415"  title="Periodicidade" url="pages/dealer/wfm_Period.aspx"/>
+        <item cssclass="submenuins" objectid="491" title="Inserção de Produtos" url="pages/dealer/wfm_InsertProducts.aspx" />
+      </subgroup>
+
+    </group>
+
+    <group objectid="411" jsid="relatorios"  title="Relatórios" collapse="false">
+
+      <subgroup objectid="412"  title="Geral">
+        <item cssclass="submenuflu" objectid="33"  title="Relatórios" url="Reports/wfm_ReportFilter.aspx"/>
+      </subgroup>
+
+    </group>
+
+    <group objectid="407" jsid="agendamento"  title="Agendamento" collapse="false">
+
+      <subgroup objectid="408"  title="Estudantes">
+        <item cssclass="submenuflu" objectid="409"  title="Calendário" url="Pages/calendar/wfm_Calendar_Lst.aspx?UT_ID=2"/>
+        <item cssclass="submenuins" objectid="410"  title="Pré-Cadastro" url="pages/calendar/wfm_PreUser_CadUser_Ins.aspx?UT_ID=2"/>
+        <item cssclass="submenuins" objectid="216"  title="Especiais" url="pages/calendar/wfm_CalendarSup_Ins.aspx?UT_ID=2"/>
+        <item cssclass="submenuins" objectid="217"  title="Sem cadastro" url="pages/calendar/wfm_PreCadUser.aspx?DESCRIPTION=ESCOLAR&amp;UT_ID=2" />
+      </subgroup>
+
+    </group>
+
+    <group objectid="235" jsid="escala"  title="Escala" collapse="false">
+
+      <subgroup objectid="403"  title="Itinerário">
+        <item cssclass="submenuins" objectid="236"  title="Incluir" url="Pages/timetable/wfm_Itinerary_Ins.aspx"/>
+        <item cssclass="submenufin" objectid="237"  title="Manutenção" url="Pages/timetable/wfm_Itinerary_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="404"  title="Escalas">
+        <item cssclass="submenuins" objectid="238"  title="Incluir" url="Pages/timetable/wfm_Timetable_Ins.aspx"/>
+        <item cssclass="submenufin" objectid="239"  title="Manut. de Dias" url="Pages/timetable/wfm_TimeTable_Lst.aspx"/>
+        <item cssclass="submenufin" objectid="239"  title="Manutenção" url="Pages/timetable/wfm_TimeTableMT_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="405"  title="Justificativas">
+        <item cssclass="submenuins" objectid="240"  title="Incluir" url="Pages/timetable/wfm_ItineraryReasons_ins.aspx"/>
+        <item cssclass="submenufin" objectid="241"  title="Manutenção" url="Pages/timetable/wfm_ItineraryReasons_Lst.aspx"/>
+      </subgroup>
+      <subgroup objectid="406"  title="Arquivos">
+        <item cssclass="submenuflu" objectid="242"  title="Importar" url="Pages/timetable/wfm_ImportTimeTableFiles.aspx" />
+        <item cssclass="submenuflu" objectid="243"  title="Exportar" url="Pages/timetable/wfm_ExportTimeTable.aspx" />
+        <item cssclass="submenufin" objectid="244"  title="Lista" url="Pages/timetable/wfm_TimeTableFile_Lst.aspx" />
+      </subgroup>
+
+    </group>
+
+    <group objectid="550" jsid="portal"  title="Portal" collapse="false">
+
+      <subgroup objectid="408"  title="Grupo 1">
+        <item cssclass="submenuflu" objectid="409"  title="Inicial" url="Pages/security/wfm_ExternalPageRedirect.aspx?_PageRedirect=PageIni.aspx&amp;_PageBack=PageIni.aspx"/>
+      </subgroup>
+
+    </group>
+    
+  </menu>
+</secure>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoInsertDocumento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pValues">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="pTabela" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNucleo" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="pId" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pTDOC_ID" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoInsertDocumentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AtualizacaoInsertDocumentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pValues">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="pTabela" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNucleo" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="pId" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AtualizacaoInsertResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pValues">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="pTabela" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pNucleo" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="pId" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="pUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pStatus" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AtualizacaoUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AtualizacaoUpdateResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoInsertDocumentoSoapIn">
+    <wsdl:part name="parameters" element="tns:AtualizacaoInsertDocumento" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoInsertDocumentoSoapOut">
+    <wsdl:part name="parameters" element="tns:AtualizacaoInsertDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:AtualizacaoInsert" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:AtualizacaoInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:AtualizacaoUpdate" />
+  </wsdl:message>
+  <wsdl:message name="AtualizacaoUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:AtualizacaoUpdateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AtualizacaoSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsertDocumento">
+      <wsdl:input message="tns:AtualizacaoInsertDocumentoSoapIn" />
+      <wsdl:output message="tns:AtualizacaoInsertDocumentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsert">
+      <wsdl:input message="tns:AtualizacaoInsertSoapIn" />
+      <wsdl:output message="tns:AtualizacaoInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoUpdate">
+      <wsdl:input message="tns:AtualizacaoUpdateSoapIn" />
+      <wsdl:output message="tns:AtualizacaoUpdateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AtualizacaoSoap" type="tns:AtualizacaoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsertDocumento">
+      <soap:operation soapAction="http://tempuri.org/AtualizacaoInsertDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsert">
+      <soap:operation soapAction="http://tempuri.org/AtualizacaoInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoUpdate">
+      <soap:operation soapAction="http://tempuri.org/AtualizacaoUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AtualizacaoSoap12" type="tns:AtualizacaoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsertDocumento">
+      <soap12:operation soapAction="http://tempuri.org/AtualizacaoInsertDocumento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoInsert">
+      <soap12:operation soapAction="http://tempuri.org/AtualizacaoInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizacaoUpdate">
+      <soap12:operation soapAction="http://tempuri.org/AtualizacaoUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Atualizacao">
+    <wsdl:port name="AtualizacaoSoap" binding="tns:AtualizacaoSoap">
+      <soap:address location="http://localhost/SCJPService/Atualizacao.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AtualizacaoSoap12" binding="tns:AtualizacaoSoap12">
+      <soap12:address location="http://localhost/SCJPService/Atualizacao.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

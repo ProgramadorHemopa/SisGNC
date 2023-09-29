@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<templates>
+		<item>
+			<!--    
+			<img src="Images/bt_f.jpg"></img>
+			-->
+		</item>
+		<group>
+			<!--    
+			<img src="Images/bt_c.jpg"></img>
+			-->
+		</group>
+		<option name="grouphover" value="" />
+		<option name="itemhover" value="" />
+		<option name="itemtarget" value="FRAME" />
+	</templates>
+	<items>
+		<item desc="Manutenção" id="DATA_UPDATE" url="../Pages/wfm_Provider_Upd.aspx" />
+		<item desc="Conta Corrente" id="BANKING_STATEMENT" url="../Pages/wfm_AccountStatement.aspx" />
+    <item desc="Pagamentos Pedidos" id="BANKING_MANAGER" url="../Pages/wfm_Account_Manager.aspx" />
+		<item desc="Alterar Senha" id="CHANGE_PASSWORD" url="../Pages/wfm_Provider_Password_Upd.aspx" />
+		<item desc="Manutenção" id="EMPLOYEE_GROUP_LIST" url="../Pages/wfm_RechargeInfo_Groups_Lst.aspx" />
+		<item desc="Incluir" id="EMPLOYEE_GROUP_NEW" url="../Pages/wfm_RechargeInfo_Groups_Upd.aspx?N=1" />
+		<item desc="Manutenção" id="EMPLOYEE_LIST" url="../Pages/wfm_RechargeInfo_Lst_v2.aspx" />
+		<item desc="Incluir" id="EMPLOYEE_NEW" url="../Pages/wfm_Recharge_Ins.aspx?NEW=1" />
+		<item desc="Processar" id="EMPLOYEE_IMPORT" url="../Pages/wfm_RechargeInfo_Archive_Ins.aspx" />
+		<item desc="Status" id="EMPLOYEE_IMPORT_LIST" url="../Pages/wfm_Providers_Archive_Lst.aspx?ARCHIVETYPE=U" />
+		<item desc="Instruções" id="EMPLOYEE_IMPORT_INF" url="../Pages/wfm_RechargeInfo_Archive_Instructions.aspx" />
+
+		<item desc="Manutenção" id="ORDERS_LIST" url="../Pages/wfm_Orders_Lst_v2.aspx" />
+		<item desc="Incluir" id="ORDERS_NEW" url="../Pages/wfm_Orders_Ins_SelType.aspx" />
+		<item desc="Processar" id="ORDERS_IMPORT" url="../Pages/wfm_Orders_Archive_Ins.aspx" />
+		<item desc="Status" id="ORDERS_IMPORT_LIST" url="../Pages/wfm_Providers_Archive_Lst.aspx?ARCHIVETYPE=O" />
+		<item desc="Instruções" id="ORDERS_IMPORT_INF" url="../Pages/wfm_Orders_Archive_Instructions.aspx" />
+
+
+		<item desc="Confirmação Recebimento" id="CARDS_LOCKED_LST" url="../Pages/wfm_Locked_Lst.aspx" />
+
+
+		<item desc="Pedidos do Cliente " id="REPORTS_ORDERS_CUSTOMER" url="../Reports/wfm_Orders_Rpt.aspx" target="_blank" />
+		<item desc="Pedidos Por Mês " id="REPORTS_ORDERS_MONTH" url="../Reports/wfm_finance_Rpt.aspx" target="_blank" />
+
+
+
+
+  </items>
+  <current>
+    <group title="Dados Cadastrais" colapsed="false">
+      <item id="DATA_UPDATE" title="Atualizar Cadastro" />
+      <item id="CHANGE_PASSWORD" title="Trocar Senha" />
+    </group>
+
+    <group title="Grupo Usuarios" colapsed="false" >
+      <item id="EMPLOYEE_GROUP_NEW" title="Incluir" />
+      <item id="EMPLOYEE_GROUP_LIST" title="Atualizar" />
+    </group>
+
+    <group title="Funcionários" colapsed="false">
+      <item id="EMPLOYEE_NEW" title="Incluir" />
+      <item id="EMPLOYEE_LIST" title="Atualizar" />
+
+
+      <group title="Importar" colapsed="false" >
+        <item id="EMPLOYEE_IMPORT_INF" title="Instruções" />
+        <item id="EMPLOYEE_IMPORT" title="Processar" />
+        <item id="EMPLOYEE_IMPORT_LIST" title="Status" />
+      </group>
+    </group>
+
+
+    <group title="Pedidos" colapsed="false">
+      <item id="ORDERS_NEW" title="Incluir" />
+      <item id="ORDERS_LIST" title="Histórico de Pedidos" />
+
+
+      <group title="Importar" colapsed="false" >
+        <item id="ORDERS_IMPORT_INF" title="Instruções" />
+        <item id="ORDERS_IMPORT" title="Processar" />
+        <item id="ORDERS_IMPORT_LIST" title="Status" />
+      </group>
+    </group>
+
+    <group title="Cartões" colapsed="false">
+      <item id="CARDS_LOCKED_LST" title="Confirmar Recebimento" />
+
+    </group>
+
+    <group title="Relatórios" colapsed="false">
+			<item id="REPORTS_ORDERS_CUSTOMER" title="Pedidos do Cliente"  target="_blank" />
+			<item id="REPORTS_ORDERS_MONTH" title="Pedidos Por Mês"  target="_blank"  />
+      <item id="BANKING_STATEMENT" title="Conta Corrente" />
+      
+		</group>
+
+		<group title="Sair" colapsed="true" system="true"  url="../Pages/wfm_LogOff.aspx">
+
+		</group>
+
+
+	</current>
+</menu>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAnomaliasPorUnidade" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAnomaliasPorUnidade" msdata:IsDataSet="true" msdata:Locale="pt-BR" msprop:Generator_DataSetName="dsAnomaliasPorUnidade" msprop:Generator_UserDSName="dsAnomaliasPorUnidade">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AnomaliasPresoPenal" msprop:Generator_TableClassName="AnomaliasPresoPenalDataTable" msprop:Generator_RowEvArgName="AnomaliasPresoPenalRowChangeEvent" msprop:Generator_TableVarName="tableAnomaliasPresoPenal" msprop:Generator_TablePropName="AnomaliasPresoPenal" msprop:Generator_RowDeletingName="AnomaliasPresoPenalRowDeleting" msprop:Generator_RowChangingName="AnomaliasPresoPenalRowChanging" msprop:Generator_RowEvHandlerName="AnomaliasPresoPenalRowChangeEventHandler" msprop:Generator_RowDeletedName="AnomaliasPresoPenalRowDeleted" msprop:Generator_UserTableName="AnomaliasPresoPenal" msprop:Generator_RowChangedName="AnomaliasPresoPenalRowChanged" msprop:Generator_RowClassName="AnomaliasPresoPenalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PES_NOME" msprop:Generator_ColumnVarNameInTable="columnPES_NOME" msprop:Generator_ColumnPropNameInRow="PES_NOME" msprop:Generator_ColumnPropNameInTable="PES_NOMEColumn" msprop:Generator_UserColumnName="PES_NOME" type="xs:string" minOccurs="0" />
+              <xs:element name="ANOPE_CUSTO" msprop:Generator_ColumnVarNameInTable="columnANOPE_CUSTO" msprop:Generator_ColumnPropNameInRow="ANOPE_CUSTO" msprop:Generator_ColumnPropNameInTable="ANOPE_CUSTOColumn" msprop:Generator_UserColumnName="ANOPE_CUSTO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ANOPE_DP" msprop:Generator_ColumnVarNameInTable="columnANOPE_DP" msprop:Generator_ColumnPropNameInRow="ANOPE_DP" msprop:Generator_ColumnPropNameInTable="ANOPE_DPColumn" msprop:Generator_UserColumnName="ANOPE_DP" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

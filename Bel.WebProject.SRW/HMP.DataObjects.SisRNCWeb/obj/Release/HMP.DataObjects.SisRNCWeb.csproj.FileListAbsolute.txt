@@ -1,0 +1,21 @@
+C:\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.csprojResolveAssemblyReference.cache
+C:\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\MySql.Data.dll
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.csprojResolveAssemblyReference.cache
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\Users\FTavares Soluções\OneDrive\VSSRoot\Hemopa\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\MySql.Data.xml
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\MySql.Data.dll
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\bin\Release\MySql.Data.xml
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.dll
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.pdb
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.csproj.CopyComplete
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.csprojAssemblyReference.cache
+C:\VSSRoot\SisGNCWeb\Bel.WebProject.SRW\HMP.DataObjects.SisRNCWeb\obj\Release\HMP.DataObjects.SisRNCWeb.csproj.CoreCompileInputs.cache

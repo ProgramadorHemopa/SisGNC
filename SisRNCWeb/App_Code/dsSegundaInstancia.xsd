@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSegundaInstancia" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSegundaInstancia" msdata:IsDataSet="true" msdata:Locale="pt-BR" msprop:Generator_DataSetName="dsSegundaInstancia" msprop:Generator_UserDSName="dsSegundaInstancia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Distribuicao" msprop:Generator_TableClassName="DistribuicaoDataTable" msprop:Generator_RowEvArgName="DistribuicaoRowChangeEvent" msprop:Generator_TableVarName="tableDistribuicao" msprop:Generator_TablePropName="Distribuicao" msprop:Generator_RowDeletingName="DistribuicaoRowDeleting" msprop:Generator_RowChangingName="DistribuicaoRowChanging" msprop:Generator_RowEvHandlerName="DistribuicaoRowChangeEventHandler" msprop:Generator_RowDeletedName="DistribuicaoRowDeleted" msprop:Generator_RowChangedName="DistribuicaoRowChanged" msprop:Generator_UserTableName="Distribuicao" msprop:Generator_RowClassName="DistribuicaoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PES_NOME" msprop:Generator_ColumnVarNameInTable="columnPES_NOME" msprop:Generator_ColumnPropNameInRow="PES_NOME" msprop:Generator_ColumnPropNameInTable="PES_NOMEColumn" msprop:Generator_UserColumnName="PES_NOME" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMP_DATAXSORTEIO" msprop:Generator_ColumnVarNameInTable="columnNUMP_DATAXSORTEIO" msprop:Generator_ColumnPropNameInRow="NUMP_DATAXSORTEIO" msprop:Generator_ColumnPropNameInTable="NUMP_DATAXSORTEIOColumn" msprop:Generator_UserColumnName="NUMP_DATAXSORTEIO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NPROCESSO" msprop:Generator_ColumnVarNameInTable="columnNPROCESSO" msprop:Generator_ColumnPropNameInRow="NPROCESSO" msprop:Generator_ColumnPropNameInTable="NPROCESSOColumn" msprop:Generator_UserColumnName="NPROCESSO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CAMARA" msprop:Generator_ColumnVarNameInTable="columnCAMARA" msprop:Generator_ColumnPropNameInRow="CAMARA" msprop:Generator_ColumnPropNameInTable="CAMARAColumn" msprop:Generator_UserColumnName="CAMARA" type="xs:string" minOccurs="0" />
+              <xs:element name="DIST_TIPOXPROCESSO" msprop:Generator_ColumnVarNameInTable="columnDIST_TIPOXPROCESSO" msprop:Generator_ColumnPropNameInRow="DIST_TIPOXPROCESSO" msprop:Generator_ColumnPropNameInTable="DIST_TIPOXPROCESSOColumn" msprop:Generator_UserColumnName="DIST_TIPOXPROCESSO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

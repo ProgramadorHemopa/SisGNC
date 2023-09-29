@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPeticoesDefensor" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPeticoesDefensor" msdata:IsDataSet="true" msdata:Locale="pt-BR" msprop:Generator_DataSetName="dsPeticoesDefensor" msprop:Generator_UserDSName="dsPeticoesDefensor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Peticoes" msprop:Generator_TableClassName="PeticoesDataTable" msprop:Generator_RowEvArgName="PeticoesRowChangeEvent" msprop:Generator_TableVarName="tablePeticoes" msprop:Generator_TablePropName="Peticoes" msprop:Generator_RowDeletingName="PeticoesRowDeleting" msprop:Generator_RowChangingName="PeticoesRowChanging" msprop:Generator_RowEvHandlerName="PeticoesRowChangeEventHandler" msprop:Generator_RowDeletedName="PeticoesRowDeleted" msprop:Generator_RowChangedName="PeticoesRowChanged" msprop:Generator_UserTableName="Peticoes" msprop:Generator_RowClassName="PeticoesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PTC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnPTC_NUMERO" msprop:Generator_ColumnPropNameInRow="PTC_NUMERO" msprop:Generator_ColumnPropNameInTable="PTC_NUMEROColumn" msprop:Generator_UserColumnName="PTC_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="DOC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDOC_NUMERO" msprop:Generator_ColumnPropNameInRow="DOC_NUMERO" msprop:Generator_ColumnPropNameInTable="DOC_NUMEROColumn" msprop:Generator_UserColumnName="DOC_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="IRM_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnIRM_DESCRICAO" msprop:Generator_ColumnPropNameInRow="IRM_DESCRICAO" msprop:Generator_ColumnPropNameInTable="IRM_DESCRICAOColumn" msprop:Generator_UserColumnName="IRM_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="PTC_REGDATE" msprop:Generator_ColumnVarNameInTable="columnPTC_REGDATE" msprop:Generator_ColumnPropNameInRow="PTC_REGDATE" msprop:Generator_ColumnPropNameInTable="PTC_REGDATEColumn" msprop:Generator_UserColumnName="PTC_REGDATE" type="xs:string" minOccurs="0" />
+              <xs:element name="STPTC_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnSTPTC_DESCRICAO" msprop:Generator_ColumnPropNameInRow="STPTC_DESCRICAO" msprop:Generator_ColumnPropNameInTable="STPTC_DESCRICAOColumn" msprop:Generator_UserColumnName="STPTC_DESCRICAO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

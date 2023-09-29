@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dstRegistroMensalAtividadeDefensor" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dstRegistroMensalAtividadeDefensor" msdata:IsDataSet="true" msdata:Locale="pt-BR" msprop:Generator_DataSetName="dstRegistroMensalAtividadeDefensor" msprop:Generator_UserDSName="dstRegistroMensalAtividadeDefensor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatAtividadeMensalDefensor" msprop:Generator_TableClassName="RelatAtividadeMensalDefensorDataTable" msprop:Generator_RowEvArgName="RelatAtividadeMensalDefensorRowChangeEvent" msprop:Generator_TableVarName="tableRelatAtividadeMensalDefensor" msprop:Generator_TablePropName="RelatAtividadeMensalDefensor" msprop:Generator_RowDeletingName="RelatAtividadeMensalDefensorRowDeleting" msprop:Generator_RowChangingName="RelatAtividadeMensalDefensorRowChanging" msprop:Generator_RowEvHandlerName="RelatAtividadeMensalDefensorRowChangeEventHandler" msprop:Generator_RowDeletedName="RelatAtividadeMensalDefensorRowDeleted" msprop:Generator_RowChangedName="RelatAtividadeMensalDefensorRowChanged" msprop:Generator_UserTableName="RelatAtividadeMensalDefensor" msprop:Generator_RowClassName="RelatAtividadeMensalDefensorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IRM_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnIRM_DESCRICAO" msprop:Generator_ColumnPropNameInRow="IRM_DESCRICAO" msprop:Generator_ColumnPropNameInTable="IRM_DESCRICAOColumn" msprop:Generator_UserColumnName="IRM_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="IRMA_QUANTIDADE" msprop:Generator_ColumnVarNameInTable="columnIRMA_QUANTIDADE" msprop:Generator_ColumnPropNameInRow="IRMA_QUANTIDADE" msprop:Generator_ColumnPropNameInTable="IRMA_QUANTIDADEColumn" msprop:Generator_UserColumnName="IRMA_QUANTIDADE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QTDFILHOS" msprop:Generator_ColumnVarNameInTable="columnQTDFILHOS" msprop:Generator_ColumnPropNameInRow="QTDFILHOS" msprop:Generator_ColumnPropNameInTable="QTDFILHOSColumn" msprop:Generator_UserColumnName="QTDFILHOS" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

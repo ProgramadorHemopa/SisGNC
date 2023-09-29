@@ -1,0 +1,92 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Aut.master.cs" Inherits="APB.Mercury.WebInterface.SCPWeb.Www.MasterPages.AutMaster" %>
+
+<%@ Register TagPrefix="cc1" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit, Version=3.0.20820.18773, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" %>
+
+<%@ Register Src="~/UserControl/WuFooter.ascx" TagName="WuFooter" TagPrefix="uc5" %>
+<%@ Register Src="~/UserControl/WuIconesInformativosTop.ascx" TagName="WuIconTop"
+    TagPrefix="uc6" %>
+<%@ Register Src="~/UserControl/WuLinhaTopo.ascx" TagName="WuLinhaTopo" TagPrefix="uc7" %>
+<%@ Register Src="~/UserControl/WuMensagemAlerta1.ascx" TagName="WuMensagemAlerta1"
+    TagPrefix="uc8" %>
+<%@ Register Src="~/UserControl/WuMenuLateral.ascx" TagName="WuMenuLateral" TagPrefix="uc9" %>
+<%@ Register Src="~/UserControl/WuMenuStyle.ascx" TagName="WuStyle" TagPrefix="uc11" %>
+<%@ Register Src="~/UserControl/WuMenuTop.ascx" TagName="WuMenuTop" TagPrefix="uc12" %>
+<%@ Register Src="~/UserControl/WuScriptCss.ascx" TagName="WuScriptCss" TagPrefix="uc13" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>SisGNCWeb</title>
+    <uc13:WuScriptCss runat="server" ID="wuScript" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="Body1" runat="server">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true"
+        EnableScriptLocalization="true">
+    </asp:ScriptManager>
+    <asp:Button ID="Button1" runat="server" Text="Button" Style="display: none" />
+    <cc1:ModalPopupExtender ID="popAguarde" runat="server" TargetControlID="Button1"
+        PopupControlID="pnAguarde" BackgroundCssClass="modalBackground" BehaviorID="popAguarde" />
+    <script id="Pop" language="javascript" type="text/javascript">
+        Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler);
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+
+        function BeginRequestHandler(sender, args) {
+            $find("popAguarde").show();
+            window.focus();
+        }
+
+        function EndRequestHandler(sender, args) {
+            $find("popAguarde").hide();
+        }
+    </script>
+    <div id="header">
+        <h1>.</h1>
+    </div>
+    <div id="user-nav" class="navbar navbar-inverse">
+        <uc12:WuMenuTop runat="server" ID="WuMenuTOP" />
+    </div>
+    <div id="sidebar">
+        <uc9:WuMenuLateral runat="server" ID="WuLateral" />
+    </div>
+    <%-- <div id="style-switcher">
+       <uc11:WuStyle runat="server" ID="WuStyle" />
+    </div>--%>
+    <div id="content">
+        <div id="content-header">
+            <uc6:WuIconTop runat="server" ID="WuIconTop" />
+        </div>
+        <div id="breadcrumb">
+            <uc7:WuLinhaTopo runat="server" ID="WuLinhaTopo" />
+        </div>
+        <div class="container-fluid">
+            <div>
+                <div class="row-fluid">
+                    <div class="span12 center" style="text-align: center;">
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="span12">
+                        <!--aqui fica a mensagem de alerta-->
+                        <div class="widget-box">
+                            <div class="container-fluid">
+                                <div>
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <uc5:WuFooter runat="server" ID="WuFooter" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <asp:Panel ID="pnAguarde" runat="server">
+        <img alt="Aguarde, carregando..." src="../../img/ajax-loader.gif" /></asp:Panel>
+    </form>
+</body>
+</html>

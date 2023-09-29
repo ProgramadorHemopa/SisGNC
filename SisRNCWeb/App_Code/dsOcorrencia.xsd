@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOcorrencia" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOcorrencia" msdata:IsDataSet="true" msdata:Locale="pt-BR" msprop:Generator_DataSetName="dsOcorrencia" msprop:Generator_UserDSName="dsOcorrencia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Ocorrencia" msprop:Generator_TableClassName="OcorrenciaDataTable" msprop:Generator_RowEvArgName="OcorrenciaRowChangeEvent" msprop:Generator_TableVarName="tableOcorrencia" msprop:Generator_TablePropName="Ocorrencia" msprop:Generator_RowDeletingName="OcorrenciaRowDeleting" msprop:Generator_RowChangingName="OcorrenciaRowChanging" msprop:Generator_RowEvHandlerName="OcorrenciaRowChangeEventHandler" msprop:Generator_RowDeletedName="OcorrenciaRowDeleted" msprop:Generator_RowChangedName="OcorrenciaRowChanged" msprop:Generator_UserTableName="Ocorrencia" msprop:Generator_RowClassName="OcorrenciaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OCR_ID" msprop:Generator_ColumnVarNameInTable="columnOCR_ID" msprop:Generator_ColumnPropNameInRow="OCR_ID" msprop:Generator_ColumnPropNameInTable="OCR_IDColumn" msprop:Generator_UserColumnName="OCR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_NUMERO" msprop:Generator_ColumnVarNameInTable="columnOCR_NUMERO" msprop:Generator_ColumnPropNameInRow="OCR_NUMERO" msprop:Generator_ColumnPropNameInTable="OCR_NUMEROColumn" msprop:Generator_UserColumnName="OCR_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DATAOCORRENCIA" msprop:Generator_ColumnVarNameInTable="columnOCR_DATAOCORRENCIA" msprop:Generator_ColumnPropNameInRow="OCR_DATAOCORRENCIA" msprop:Generator_ColumnPropNameInTable="OCR_DATAOCORRENCIAColumn" msprop:Generator_UserColumnName="OCR_DATAOCORRENCIA" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DATAABERTURA" msprop:Generator_ColumnVarNameInTable="columnOCR_DATAABERTURA" msprop:Generator_ColumnPropNameInRow="OCR_DATAABERTURA" msprop:Generator_ColumnPropNameInTable="OCR_DATAABERTURAColumn" msprop:Generator_UserColumnName="OCR_DATAABERTURA" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnOCR_DESCRICAO" msprop:Generator_ColumnPropNameInRow="OCR_DESCRICAO" msprop:Generator_ColumnPropNameInTable="OCR_DESCRICAOColumn" msprop:Generator_UserColumnName="OCR_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="STCOCR_ID" msprop:Generator_ColumnVarNameInTable="columnSTCOCR_ID" msprop:Generator_ColumnPropNameInRow="STCOCR_ID" msprop:Generator_ColumnPropNameInTable="STCOCR_IDColumn" msprop:Generator_UserColumnName="STCOCR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="STCOCR_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnSTCOCR_DESCRICAO" msprop:Generator_ColumnPropNameInRow="STCOCR_DESCRICAO" msprop:Generator_ColumnPropNameInTable="STCOCR_DESCRICAOColumn" msprop:Generator_UserColumnName="STCOCR_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="UNIDADE_OCORRENCIA" msprop:Generator_ColumnVarNameInTable="columnUNIDADE_OCORRENCIA" msprop:Generator_ColumnPropNameInRow="UNIDADE_OCORRENCIA" msprop:Generator_ColumnPropNameInTable="UNIDADE_OCORRENCIAColumn" msprop:Generator_UserColumnName="UNIDADE_OCORRENCIA" type="xs:string" minOccurs="0" />
+              <xs:element name="UNIDADE_RESPONSAVEL" msprop:Generator_ColumnVarNameInTable="columnUNIDADE_RESPONSAVEL" msprop:Generator_ColumnPropNameInRow="UNIDADE_RESPONSAVEL" msprop:Generator_ColumnPropNameInTable="UNIDADE_RESPONSAVELColumn" msprop:Generator_UserColumnName="UNIDADE_RESPONSAVEL" type="xs:string" minOccurs="0" />
+              <xs:element name="FUNCIONARIO_RESPONSAVEL" msprop:Generator_ColumnVarNameInTable="columnFUNCIONARIO_RESPONSAVEL" msprop:Generator_ColumnPropNameInRow="FUNCIONARIO_RESPONSAVEL" msprop:Generator_ColumnPropNameInTable="FUNCIONARIO_RESPONSAVELColumn" msprop:Generator_UserColumnName="FUNCIONARIO_RESPONSAVEL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FluxoOcorrencia" msprop:Generator_TableClassName="FluxoOcorrenciaDataTable" msprop:Generator_TableVarName="tableFluxoOcorrencia" msprop:Generator_RowChangedName="FluxoOcorrenciaRowChanged" msprop:Generator_TablePropName="FluxoOcorrencia" msprop:Generator_RowDeletingName="FluxoOcorrenciaRowDeleting" msprop:Generator_RowChangingName="FluxoOcorrenciaRowChanging" msprop:Generator_RowEvHandlerName="FluxoOcorrenciaRowChangeEventHandler" msprop:Generator_RowDeletedName="FluxoOcorrenciaRowDeleted" msprop:Generator_RowClassName="FluxoOcorrenciaRow" msprop:Generator_UserTableName="FluxoOcorrencia" msprop:Generator_RowEvArgName="FluxoOcorrenciaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OCR_ID" msprop:Generator_ColumnVarNameInTable="columnOCR_ID" msprop:Generator_ColumnPropNameInRow="OCR_ID" msprop:Generator_ColumnPropNameInTable="OCR_IDColumn" msprop:Generator_UserColumnName="OCR_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_NUMERO" msprop:Generator_ColumnVarNameInTable="columnOCR_NUMERO" msprop:Generator_ColumnPropNameInRow="OCR_NUMERO" msprop:Generator_ColumnPropNameInTable="OCR_NUMEROColumn" msprop:Generator_UserColumnName="OCR_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DATAOCORRENCIA" msprop:Generator_ColumnVarNameInTable="columnOCR_DATAOCORRENCIA" msprop:Generator_ColumnPropNameInRow="OCR_DATAOCORRENCIA" msprop:Generator_ColumnPropNameInTable="OCR_DATAOCORRENCIAColumn" msprop:Generator_UserColumnName="OCR_DATAOCORRENCIA" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DATAABERTURA" msprop:Generator_ColumnVarNameInTable="columnOCR_DATAABERTURA" msprop:Generator_ColumnPropNameInRow="OCR_DATAABERTURA" msprop:Generator_ColumnPropNameInTable="OCR_DATAABERTURAColumn" msprop:Generator_UserColumnName="OCR_DATAABERTURA" type="xs:string" minOccurs="0" />
+              <xs:element name="OCR_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnOCR_DESCRICAO" msprop:Generator_ColumnPropNameInRow="OCR_DESCRICAO" msprop:Generator_ColumnPropNameInTable="OCR_DESCRICAOColumn" msprop:Generator_UserColumnName="OCR_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="STCOCR_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnSTCOCR_DESCRICAO" msprop:Generator_ColumnPropNameInRow="STCOCR_DESCRICAO" msprop:Generator_ColumnPropNameInTable="STCOCR_DESCRICAOColumn" msprop:Generator_UserColumnName="STCOCR_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="MTV_DESCRICAO" msprop:Generator_ColumnVarNameInTable="columnMTV_DESCRICAO" msprop:Generator_ColumnPropNameInRow="MTV_DESCRICAO" msprop:Generator_ColumnPropNameInTable="MTV_DESCRICAOColumn" msprop:Generator_UserColumnName="MTV_DESCRICAO" type="xs:string" minOccurs="0" />
+              <xs:element name="RESPABERTURA" msprop:Generator_ColumnVarNameInTable="columnRESPABERTURA" msprop:Generator_ColumnPropNameInRow="RESPABERTURA" msprop:Generator_ColumnPropNameInTable="RESPABERTURAColumn" msprop:Generator_UserColumnName="RESPABERTURA" type="xs:string" minOccurs="0" />
+              <xs:element name="LOCAL_OCORRENCIA" msprop:Generator_ColumnVarNameInTable="columnLOCAL_OCORRENCIA" msprop:Generator_ColumnPropNameInRow="LOCAL_OCORRENCIA" msprop:Generator_ColumnPropNameInTable="LOCAL_OCORRENCIAColumn" msprop:Generator_UserColumnName="LOCAL_OCORRENCIA" type="xs:string" minOccurs="0" />
+              <xs:element name="UNIDADE_RESPONSAVEL" msprop:Generator_ColumnVarNameInTable="columnUNIDADE_RESPONSAVEL" msprop:Generator_ColumnPropNameInRow="UNIDADE_RESPONSAVEL" msprop:Generator_ColumnPropNameInTable="UNIDADE_RESPONSAVELColumn" msprop:Generator_UserColumnName="UNIDADE_RESPONSAVEL" type="xs:string" minOccurs="0" />
+              <xs:element name="ATE_IMEDIATA" msprop:Generator_ColumnVarNameInTable="columnATE_IMEDIATA" msprop:Generator_ColumnPropNameInRow="ATE_IMEDIATA" msprop:Generator_ColumnPropNameInTable="ATE_IMEDIATAColumn" msprop:Generator_UserColumnName="ATE_IMEDIATA" type="xs:string" minOccurs="0" />
+              <xs:element name="ATE_CRITICA" msprop:Generator_ColumnVarNameInTable="columnATE_CRITICA" msprop:Generator_ColumnPropNameInRow="ATE_CRITICA" msprop:Generator_ColumnPropNameInTable="ATE_CRITICAColumn" msprop:Generator_UserColumnName="ATE_CRITICA" type="xs:string" minOccurs="0" />
+              <xs:element name="ANALISE_CRITICA" msprop:Generator_ColumnVarNameInTable="columnANALISE_CRITICA" msprop:Generator_ColumnPropNameInRow="ANALISE_CRITICA" msprop:Generator_ColumnPropNameInTable="ANALISE_CRITICAColumn" msprop:Generator_UserColumnName="ANALISE_CRITICA" type="xs:string" minOccurs="0" />
+              <xs:element name="PA" msprop:Generator_ColumnVarNameInTable="columnPA" msprop:Generator_ColumnPropNameInRow="PA" msprop:Generator_ColumnPropNameInTable="PAColumn" msprop:Generator_UserColumnName="PA" type="xs:string" minOccurs="0" />
+              <xs:element name="ELABORACAO_PA" msprop:Generator_ColumnVarNameInTable="columnELABORACAO_PA" msprop:Generator_ColumnPropNameInRow="ELABORACAO_PA" msprop:Generator_ColumnPropNameInTable="ELABORACAO_PAColumn" msprop:Generator_UserColumnName="ELABORACAO_PA" type="xs:string" minOccurs="0" />
+              <xs:element name="DATA_FINAL_PA" msprop:Generator_ColumnVarNameInTable="columnDATA_FINAL_PA" msprop:Generator_ColumnPropNameInRow="DATA_FINAL_PA" msprop:Generator_ColumnPropNameInTable="DATA_FINAL_PAColumn" msprop:Generator_UserColumnName="DATA_FINAL_PA" type="xs:string" minOccurs="0" />
+              <xs:element name="ATE_VERIFICACAO" msprop:Generator_ColumnVarNameInTable="columnATE_VERIFICACAO" msprop:Generator_ColumnPropNameInRow="ATE_VERIFICACAO" msprop:Generator_ColumnPropNameInTable="ATE_VERIFICACAOColumn" msprop:Generator_UserColumnName="ATE_VERIFICACAO" type="xs:string" minOccurs="0" />
+              <xs:element name="VERIFICACAO" msprop:Generator_ColumnVarNameInTable="columnVERIFICACAO" msprop:Generator_ColumnPropNameInRow="VERIFICACAO" msprop:Generator_ColumnPropNameInTable="VERIFICACAOColumn" msprop:Generator_UserColumnName="VERIFICACAO" type="xs:string" minOccurs="0" />
+              <xs:element name="ACAO_IMEDIATA" msprop:Generator_ColumnVarNameInTable="columnACAO_IMEDIATA" msprop:Generator_ColumnPropNameInRow="ACAO_IMEDIATA" msprop:Generator_ColumnPropNameInTable="ACAO_IMEDIATAColumn" msprop:Generator_UserColumnName="ACAO_IMEDIATA" type="xs:string" minOccurs="0" />
+			  
+			  <xs:element name="ANALISECAUSA_PA" msprop:Generator_ColumnVarNameInTable="columnANALISECAUSA_PA" msprop:Generator_ColumnPropNameInRow="ANALISECAUSA_PA" msprop:Generator_ColumnPropNameInTable="ANALISECAUSA_PAColumn" msprop:Generator_UserColumnName="ANALISECAUSA_PA" type="xs:string" minOccurs="0" />
+			  <xs:element name="ATE_ANALISECAUSA" msprop:Generator_ColumnVarNameInTable="columnATE_ANALISECAUSA" msprop:Generator_ColumnPropNameInRow="ATE_ANALISECAUSA" msprop:Generator_ColumnPropNameInTable="ATE_ANALISECAUSAColumn" msprop:Generator_UserColumnName="ATE_ANALISECAUSA" type="xs:string" minOccurs="0" />
+			  <xs:element name="ATE_ELABORACAO_PA" msprop:Generator_ColumnVarNameInTable="columnATE_ELABORACAO_PA" msprop:Generator_ColumnPropNameInRow="ATE_ELABORACAO_PA" msprop:Generator_ColumnPropNameInTable="ATE_ELABORACAO_PAColumn" msprop:Generator_UserColumnName="ATE_ELABORACAO_PA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

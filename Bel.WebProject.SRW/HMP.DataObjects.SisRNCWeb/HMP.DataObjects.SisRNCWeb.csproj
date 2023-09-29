@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3393FC44-ADBF-406C-AF26-83B21EAD39F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HMP.DataObjects.SisRNCWeb</RootNamespace>
+    <AssemblyName>HMP.DataObjects.SisRNCWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="APB.Framework.Encryption">
+      <HintPath>..\..\..\..\Users\ricardo.almeida\Documents\Projeto\Debug_DataObjects\APB.Framework.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="APB.Mercury.Exceptions">
+      <HintPath>..\..\..\..\Users\ricardo.almeida\Documents\Projeto\Debug_DataObjects\APB.Mercury.Exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.8\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="RPA.DataBase">
+      <HintPath>..\..\..\..\Users\ricardo.almeida\Documents\Projeto\Debug_DataObjects\RPA.DataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ConnectionInfo.cs" />
+    <Compile Include="Base\Cryptography.cs" />
+    <Compile Include="Base\DataBaseSequence.cs" />
+    <Compile Include="Base\DataBaseSequenceControl.cs" />
+    <Compile Include="Base\DataField.cs" />
+    <Compile Include="Base\DataFieldCollection.cs" />
+    <Compile Include="Base\ErrorCodes.cs" />
+    <Compile Include="Base\Extensions.cs" />
+    <Compile Include="Base\GenericDataObject.cs" />
+    <Compile Include="Base\Instance.cs" />
+    <Compile Include="Base\InvalidDataField.cs" />
+    <Compile Include="Base\Select.cs" />
+    <Compile Include="Base\SerializableException.cs" />
+    <Compile Include="DataObjects\LoginUserDo.cs" />
+    <Compile Include="DataObjects\MySqlDo.cs" />
+    <Compile Include="DataObjects\NC_AnexoAcoesDo.cs" />
+    <Compile Include="DataObjects\NC_OcorrenciaxDocumentoDo.cs" />
+    <Compile Include="DataObjects\NC_ReprogramacaoAcoesDo.cs" />
+    <Compile Include="DataObjects\NC_AcoesDo.cs" />
+    <Compile Include="DataObjects\NC_DiagramaCausaEfeitoDo.cs" />
+    <Compile Include="DataObjects\NC_AnaliseCausaEfeitoDo.cs" />
+    <Compile Include="DataObjects\NC_AnaliseCriticaDo.cs" />
+    <Compile Include="DataObjects\NC_AnexoOcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_MotivoOcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_NormasDo.cs" />
+    <Compile Include="DataObjects\NC_NormasxOcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_OcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_PlanoAcaoDo.cs" />
+    <Compile Include="DataObjects\NC_SintomasAcaoDo.cs" />
+    <Compile Include="DataObjects\NC_SituacaoOcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_TipoOcorrenciaDo.cs" />
+    <Compile Include="DataObjects\NC_TipoAnaliseDo.cs" />
+    <Compile Include="DataObjects\NC_VerificarEficaciaDo.cs" />
+    <Compile Include="DataObjects\PESSOAXFUNCAOXLOTACAODo.cs" />
+    <Compile Include="DataObjects\PessoaDo.cs" />
+    <Compile Include="DataObjects\PessoaDocumentoDo.cs" />
+    <Compile Include="DataObjects\PessoaEnderecoDo.cs" />
+    <Compile Include="DataObjects\PessoaFuncaoDo.cs" />
+    <Compile Include="DataObjects\SecurityObjectsDo.cs" />
+    <Compile Include="DataObjects\SecurityUsersDtDo.cs" />
+    <Compile Include="DataObjects\SystemUserDo.cs" />
+    <Compile Include="Base\OperationResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryDictionaries\NC_AnexoAcoesQD.cs" />
+    <Compile Include="QueryDictionaries\NC_OcorrenciaxDocumentoQD.cs" />
+    <Compile Include="QueryDictionaries\NC_ReprogramacaoAcoesQD.cs" />
+    <Compile Include="QueryDictionaries\NC_AcoesQD.cs" />
+    <Compile Include="QueryDictionaries\NC_DiagramaCausaEfeitoQD.cs" />
+    <Compile Include="QueryDictionaries\NC_AnaliseCausaEfeitoQD.cs" />
+    <Compile Include="QueryDictionaries\NC_AnaliseCriticaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_AnexoOcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_MotivoOcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_NormasQD.cs" />
+    <Compile Include="QueryDictionaries\NC_NormasxOcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_OcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_PlanoAcaoQD.cs" />
+    <Compile Include="QueryDictionaries\NC_SintomasAcaoQD.cs" />
+    <Compile Include="QueryDictionaries\NC_SituacaoOcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_TipoOcorrenciaQD.cs" />
+    <Compile Include="QueryDictionaries\NC_TipoAnaliseQD.cs" />
+    <Compile Include="QueryDictionaries\NC_VerificarEficaciaQD.cs" />
+    <Compile Include="QueryDictionaries\PESSOAXFUNCAOXLOTACAOQD.cs" />
+    <Compile Include="QueryDictionaries\PessoaDocumentoQD.cs" />
+    <Compile Include="QueryDictionaries\PessoaEnderecoQD.cs" />
+    <Compile Include="QueryDictionaries\PessoaFuncaoQD.cs" />
+    <Compile Include="QueryDictionaries\PessoaQD.cs" />
+    <Compile Include="QueryDictionaries\SecurityObjectsQD.cs" />
+    <Compile Include="QueryDictionaries\SecurityUsersDtQD.cs" />
+    <Compile Include="QueryDictionaries\SequencesControlQD.cs" />
+    <Compile Include="QueryDictionaries\SequencesQD.cs" />
+    <Compile Include="QueryDictionaries\SystemUserQD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

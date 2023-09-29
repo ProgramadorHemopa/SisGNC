@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsRelatCargaProcesso" targetNamespace="http://tempuri.org/DSRel.xsd" xmlns:mstns="http://tempuri.org/DSRel.xsd" xmlns="http://tempuri.org/DSRel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsRelatCargaProcesso" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_DataSetName="ReportsRelatCargaProcesso" msprop:Generator_UserDSName="ReportsRelatCargaProcesso">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatCargaProcesso" msprop:Generator_TableClassName="RelatCargaProcessoDataTable" msprop:Generator_RowEvArgName="RelatCargaProcessoRowChangeEvent" msprop:Generator_TableVarName="tableRelatCargaProcesso" msprop:Generator_TablePropName="RelatCargaProcesso" msprop:Generator_RowDeletingName="RelatCargaProcessoRowDeleting" msprop:Generator_UserTableName="RelatCargaProcesso" msprop:Generator_RowChangingName="RelatCargaProcessoRowChanging" msprop:Generator_RowDeletedName="RelatCargaProcessoRowDeleted" msprop:Generator_RowChangedName="RelatCargaProcessoRowChanged" msprop:Generator_RowEvHandlerName="RelatCargaProcessoRowChangeEventHandler" msprop:Generator_RowClassName="RelatCargaProcessoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DOC_ID" msprop:Generator_ColumnVarNameInTable="columnDOC_ID" msprop:Generator_ColumnPropNameInRow="DOC_ID" msprop:Generator_ColumnPropNameInTable="DOC_IDColumn" msprop:Generator_UserColumnName="DOC_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DOC_NUMERO" msprop:Generator_ColumnVarNameInTable="columnDOC_NUMERO" msprop:Generator_ColumnPropNameInRow="DOC_NUMERO" msprop:Generator_ColumnPropNameInTable="DOC_NUMEROColumn" msprop:Generator_UserColumnName="DOC_NUMERO" type="xs:string" minOccurs="0" />
+              <xs:element name="DOCANX_NUMERODOCUMENTO" msprop:Generator_ColumnVarNameInTable="columnDOCANX_NUMERODOCUMENTO" msprop:Generator_ColumnPropNameInRow="DOCANX_NUMERODOCUMENTO" msprop:Generator_ColumnPropNameInTable="DOCANX_NUMERODOCUMENTOColumn" msprop:Generator_UserColumnName="DOCANX_NUMERODOCUMENTO" type="xs:string" minOccurs="0" />
+              <xs:element name="CRG_DATAENTRADA" msprop:Generator_ColumnVarNameInTable="columnCRG_DATAENTRADA" msprop:Generator_ColumnPropNameInRow="CRG_DATAENTRADA" msprop:Generator_ColumnPropNameInTable="CRG_DATAENTRADAColumn" msprop:Generator_UserColumnName="CRG_DATAENTRADA" type="xs:string" minOccurs="0" />
+              <xs:element name="CRG_DATASAIDA" msprop:Generator_ColumnVarNameInTable="columnCRG_DATASAIDA" msprop:Generator_ColumnPropNameInRow="CRG_DATASAIDA" msprop:Generator_ColumnPropNameInTable="CRG_DATASAIDAColumn" msprop:Generator_UserColumnName="CRG_DATASAIDA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

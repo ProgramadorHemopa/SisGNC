@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Perfil>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>Areadetrabalho/Pesquisadoassistido.aspx"> Pesquisa do assistido </link>
+  </ParametroAdmin>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>Atendimento/TelaCheckPresenca.aspx"> Visualização de Comparecimentos do dia Atendente/Estagiario</link>
+  </ParametroAdmin>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>~/Aut/Areadetrabalho/Acompanhamentodefensores.aspx"> Visualização de Comparecimentos do dia Defensor</link>
+  </ParametroAdmin>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>Atendimento/Visualizacaoagendamento.aspx"> Consulta agenda </link>
+  </ParametroAdmin>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>~/Aut/Basic/Escala.aspx">Agenda</link>
+  </ParametroAdmin>
+
+  <ParametroAdmin>
+    <Id>8</Id>
+    <Nome>ADMINISTRADOR</Nome>
+    <link>Areadetrabalho/CargaProcesso.aspx"> Carga Processo</link>
+  </ParametroAdmin>
+
+
+  <ParametroCoord>
+    <Id>2</Id>
+    <Nome>COORDENADOR</Nome>
+    <link>Atendimento/Visualizacaoagendamento.aspx"> Consulta agenda </link>
+  </ParametroCoord>
+
+  <ParametroCoord>
+    <Id>2</Id>
+    <Nome>COORDENADOR</Nome>
+    <link>~/Aut/Basic/Escala.aspx">Agenda</link>
+  </ParametroCoord>
+
+  <PerfilEstagiario>
+    <Id>5</Id>
+    <Nome>ESTAGIÁRIO</Nome>
+    <link>Areadetrabalho/Pesquisadoassistido.aspx"> Pesquisa do assistido </link>
+  </PerfilEstagiario>
+
+  <PerfilEstagiario>
+    <Id>5</Id>
+    <Nome>ESTAGIÁRIO</Nome>
+    <link>Atendimento/TelaCheckPresenca.aspx"> Visualização de Comparecimentos do dia </link>
+  </PerfilEstagiario>
+
+  <PerfilEstagiario>
+    <Id>5</Id>
+    <Nome>ESTAGIÁRIO</Nome>
+    <link>Atendimento/Visualizacaoagendamento.aspx"> Consulta agenda </link>
+  </PerfilEstagiario>
+
+  <PerfilEstagiario>
+    <Id>5</Id>
+    <Nome>ESTAGIÁRIO</Nome>
+    <link>Areadetrabalho/CargaProcesso.aspx">Carga Processo</link>
+  </PerfilEstagiario>
+
+  <PerfilAtendente>
+    <Id>7</Id>
+    <Nome>ATENDENTE</Nome>
+    <link>Areadetrabalho/Pesquisadoassistido.aspx"> Pesquisa do assistido </link>
+  </PerfilAtendente>
+
+  <PerfilAtendente>
+    <Id>7</Id>
+    <Nome>ATENDENTE</Nome>
+    <link>Areadetrabalho/Pesquisadoassistido.aspx"> Pesquisa do assistido </link>
+  </PerfilAtendente>
+
+  <PerfilAtendente>
+    <Id>7</Id>
+    <Nome>ATENDENTE</Nome>
+    <link>Atendimento/TelaCheckPresenca.aspx"> Visualização de Comparecimentos do dia </link>
+  </PerfilAtendente>
+
+  <PerfilAtendente>
+    <Id>7</Id>
+    <Nome>ATENDENTE</Nome>
+    <link>Atendimento/Visualizacaoagendamento.aspx"> Consulta agenda </link>
+  </PerfilAtendente>
+
+  <PerfilAtendente>
+    <Id>7</Id>
+    <Nome>ATENDENTE</Nome>
+    <link>Areadetrabalho/CargaProcesso.aspx"> Carga Processo</link>
+  </PerfilAtendente>
+
+  <PerfilDefensor>
+    <Id>4</Id>
+    <Nome>DEFENSOR</Nome>
+    <link>~/Aut/Areadetrabalho/Pesquisadoassistido.aspx"> Pesquisa do assistido</link>
+  </PerfilDefensor>
+
+  <PerfilDefensor>
+    <Id>4</Id>
+    <Nome>DEFENSOR</Nome>
+    <link>~/Aut/Defensor/ConsultaProcesso.aspx">Consultar pasta interna</link>
+  </PerfilDefensor>
+
+  <PerfilDefensor>
+    <Id>4</Id>
+    <Nome>DEFENSOR</Nome>
+    <link>~/Aut/Areadetrabalho/Acompanhamentodefensores.aspx"> Visualização de Comparecimentos do dia</link>
+  </PerfilDefensor>
+
+  <PerfilDefensor>
+    <Id>4</Id>
+    <Nome>DEFENSOR</Nome>
+    <link>~/Aut/Basic/Escala.aspx">Agenda</link>
+  </PerfilDefensor>
+
+  <PerfilDefensor>
+    <Id>4</Id>
+    <Nome>DEFENSOR</Nome>
+    <link>~/Aut/Areadetrabalho/CargaProcesso.aspx">Carga Processo</link>
+  </PerfilDefensor>
+
+</Perfil>
